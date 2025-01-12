@@ -1,0 +1,195 @@
+body{
+    /* background-image: url("images/experience.jpg"); */
+    padding: 0;
+    margin: 0;
+}
+
+.my_name{
+
+    margin: 0vw 0vw 3vw 0vw;
+    
+    background-image: url("images/my_name.jpg");
+
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-color: azure;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0,0,0, 0.4);
+    
+}
+.name{
+    /* display: inline-flex; */
+    
+    text-align: center;
+    color: rgb(240, 239, 242);
+    /* background-color: rgba(0,0,0, 0.2); */
+    background-image: linear-gradient(to right,rgba(0,0,0, 0.1) , rgba(0,0,0, 4) , rgba(0,0,0, 0.1));
+    text-shadow: 0.1vw;
+    font-size: 40px;
+    padding: 1vw 0 1vw 0;
+}
+.my_name>.description{
+    /* display: inline-flex; */
+    text-align: center;
+    color: rgb(255, 255, 255);
+    backdrop-filter: blur(1px);
+    background-image: linear-gradient(to right,rgba(0,0,0,0.9),rgba(255, 255, 255, 0.04) ,rgba(0,0,0,0.9));
+    padding: 1vw 2vw;
+}
+
+.sections{
+    
+    margin:3vw 0vw 0vw 0vw;
+    padding: 0%;
+}
+
+.sections>.heading{
+    font-size: 30px;
+    background-image: linear-gradient(to right , rgba(245, 241, 241, 0.7 ),rgba(0,0,0,0));
+    padding: 1vw 0vw 1vw 0.4vw;
+    
+    /* border-bottom: 0.05vw black solid ; */
+    margin-bottom: 0.5vw;
+    /* border-top: 0.05vw black solid ; */
+    color: black;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px white;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    
+}
+
+.ex{
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0));
+    backdrop-filter: blur(10px);
+    /* border-bottom: 0.25vw black solid ;
+    border-top: 0.25vw black solid ; */
+    margin-bottom: 0.5vw;
+    margin:0.5vw;
+}
+
+.sections>.ex>.heading{
+    color: rgb(255, 255, 255);
+    background: rgba(0,0,0,0.6);
+    padding:.5vw;
+}
+
+.sections>.ex>.sub_heading{
+    color: rgb(255, 255, 255);
+    padding:1vw;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    background: rgba(0,0,0,0.5);
+
+}
+
+.sections>.ex>.description{
+    padding:1vw;
+}
+
+#Experience{
+    background-image: url("images/experience.jpg");
+    background-size: cover;
+}
+
+#Projects{
+    background-image: url("images/Projects.webp");
+    background-size: cover;
+}
+
+#Education{
+    background-image: url("images/Education.jpg");
+    background-size: cover;
+}
+
+#Skills{
+    background-image: url("images/Skills.jpg");
+    background-size: cover;
+}
+
+#Certifications{
+    background-image: url("images/Certificates.jpg");
+    background-size: cover;
+}
+
+.foot{
+    display: bloxk;
+    background: black;
+    color:white;
+    padding-top: 2vw;
+}
+
+.sec{
+    /* border-bottom: 2px dotted; */
+    text-align: left;
+    vertical-align: middle;
+}
+.foot_head{
+    margin-left: 4px;
+    border-bottom: 2px white solid ;
+    border-top: 2px white solid ;
+    
+    margin-bottom: 4px;
+}
+
+.foot>.sec>div{
+    display: flex;
+    padding: 5px;
+}
+
+.logo{
+    
+    display:flex;
+    margin:auto;
+    text-align: left;
+}
+
+#codechef{
+    background-image: url("images/Codechef.png");
+    height: 30px;
+    width: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#gfg{
+    background-image: url("images/GeeksforGeeks.svg");
+    height: 30px;
+    width: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#lc{
+    background-image: url("images/LeetCode_Logo_1.png");
+    height: 30px;
+    width: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#mail{
+    background-image: url("images/Mail.png");
+    height: 30px;
+    width: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#mobile{
+    background-image: url("images/Phone.png");
+    height: 30px;
+    width: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#Lin{
+    background-image: url("images/Linkedin.png");
+    height: 30px;
+    width: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.value{
+    padding-left: 20px;
+}
