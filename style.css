@@ -2,6 +2,8 @@ body{
     /* background-image: url("images/experience.jpg"); */
     padding: 0;
     margin: 0;
+    background-image: url("images/body_background.jpg");
+    background-attachment: fixed;
 }
 
 .my_name{
@@ -140,6 +142,7 @@ body{
     
     display:flex;
     margin:auto;
+    margin-left: 0;
     text-align: left;
 }
 
