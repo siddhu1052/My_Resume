@@ -61,17 +61,19 @@ body{
 }
 
 .ex{
-    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0));
-    backdrop-filter: blur(10px);
+    background-image: linear-gradient(to right, rgba(0,0,0,0.7),rgba(0,0,0,0.4));
+    backdrop-filter: blur(2px);
     /* border-bottom: 0.25vw black solid ;
     border-top: 0.25vw black solid ; */
     margin-bottom: 0.5vw;
     margin:0.5vw;
+    padding: 1vw;
+    color:white;
 }
 
 .sections>.ex>.heading{
     color: rgb(255, 255, 255);
-    background: rgba(0,0,0,0.6);
+    background-image: rgba(0,0,0,0.7);
     padding:.5vw;
 }
 
@@ -91,16 +93,22 @@ body{
 #Experience{
     background-image: url("images/experience.jpg");
     background-size: cover;
+    color:rgb(255, 255, 255);
+    text-shadow: 0 0 3px #000000, 0 0 5px #433e3e;
 }
 
+
 #Projects{
-    background-image: url("images/Projects.webp");
+    background-image: url("images/project.jpg");
     background-size: cover;
+    color:rgb(255, 255, 255);
+    font-weight:lighter;
+    text-shadow: 0 0 3px #000000, 0 0 2px #000000, 0 0 1px #000000, 0 0 5px #000000;
 }
 
 #Education{
     background-image: url("images/Education.jpg");
-    background-size: cover;
+    background-size:contain;
 }
 
 #Skills{
@@ -195,4 +203,8 @@ body{
 }
 .value{
     padding-left: 20px;
+}
+
+a{
+    color: white;
 }
